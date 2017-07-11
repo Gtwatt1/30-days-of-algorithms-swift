@@ -6,9 +6,13 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F56A0661F1555BB0061C901 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A0651F1555BB0061C901 /* FizzBuzz.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		3F56A04D1F14AA930061C901 /* 30 Days Algorithm in Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30 Days Algorithm in Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F56A0621F14AAD30061C901 /* Day1-FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Day1-FizzBuzz.playground"; path = "../Day1-FizzBuzz.playground"; sourceTree = "<group>"; };
+		3F56A04D1F14AA930061C901 /* 30 Days Algorithm in Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "30 Days Algorithm in Swift.app"; path = "/Users/zone3/Documents/Projects/personal/iOS/30 Days Algorithm in Swift/build/Debug-iphoneos/30 Days Algorithm in Swift.app"; sourceTree = "<absolute>"; };
+		3F56A0651F1555BB0061C901 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,25 +29,8 @@
 		3F56A0441F14AA930061C901 = {
 			isa = PBXGroup;
 			children = (
-				3F56A04F1F14AA930061C901 /* 30 Days Algorithm in Swift */,
-				3F56A04E1F14AA930061C901 /* Products */,
+				3F56A0651F1555BB0061C901 /* FizzBuzz.swift */,
 			);
-			sourceTree = "<group>";
-		};
-		3F56A04E1F14AA930061C901 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3F56A04D1F14AA930061C901 /* 30 Days Algorithm in Swift.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3F56A04F1F14AA930061C901 /* 30 Days Algorithm in Swift */ = {
-			isa = PBXGroup;
-			children = (
-				3F56A0621F14AAD30061C901 /* Day1-FizzBuzz.playground */,
-			);
-			path = "30 Days Algorithm in Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +65,7 @@
 				TargetAttributes = {
 					3F56A04C1F14AA930061C901 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -91,7 +79,7 @@
 				Base,
 			);
 			mainGroup = 3F56A0441F14AA930061C901;
-			productRefGroup = 3F56A04E1F14AA930061C901 /* Products */;
+			productRefGroup = 3F56A0441F14AA930061C901;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -115,6 +103,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F56A0661F1555BB0061C901 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +207,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "30 Days Algorithm in Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zone.-0-Days-Algorithm-in-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -230,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "30 Days Algorithm in Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zone.-0-Days-Algorithm-in-Swift";
@@ -257,6 +249,7 @@
 				3F56A0611F14AA930061C901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

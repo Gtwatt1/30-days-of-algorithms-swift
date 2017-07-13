@@ -13,17 +13,14 @@ class FizzBuzz{
 
     func fizzBuzz(number : Int) -> String{
         if number % 3 == 0 && number % 5 == 0 {
-            print("\(number)  FIZZBUZZ")
             return "FIZZBUZZ"
         }
         
         if number % 3 == 0 {
-            print("\(number)  FIZZ")
             return "FIZZ"
         }
         
         if number % 5 == 0 {
-            print("\(number)  FIZZ")
             return "BUZZ"
         }
         return " "
@@ -31,7 +28,7 @@ class FizzBuzz{
 
     func Test(){
         for i in 1...100{
-             fizzBuzz(number: i)
+             print(fizzBuzz(number: i))
         }
     }
 }

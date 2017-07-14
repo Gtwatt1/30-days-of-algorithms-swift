@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5566D61F18A54D00BC92B6 /* Day4 BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5566D51F18A54D00BC92B6 /* Day4 BubbleSort.swift */; };
 		3F56A0661F1555BB0061C901 /* Day1 FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A0651F1555BB0061C901 /* Day1 FizzBuzz.swift */; };
 		3F56A0681F1556C20061C901 /* Day2 Sieve_of_Eratosthenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A0671F1556C20061C901 /* Day2 Sieve_of_Eratosthenes.swift */; };
 		3F56A06A1F174FA10061C901 /* Day3 BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56A0691F174FA10061C901 /* Day3 BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F56A04D1F14AA930061C901 /* 30 Days Algorithm in Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "30 Days Algorithm in Swift.app"; path = "/Users/zone3/Documents/Projects/personal/iOS/30 Days Algorithm in Swift/build/Debug-iphoneos/30 Days Algorithm in Swift.app"; sourceTree = "<absolute>"; };
+		3F5566D41F176B6100BC92B6 /* 30 Days Algorithm in Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30 Days Algorithm in Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5566D51F18A54D00BC92B6 /* Day4 BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day4 BubbleSort.swift"; sourceTree = "<group>"; };
 		3F56A0651F1555BB0061C901 /* Day1 FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day1 FizzBuzz.swift"; sourceTree = "<group>"; };
 		3F56A0671F1556C20061C901 /* Day2 Sieve_of_Eratosthenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day2 Sieve_of_Eratosthenes.swift"; sourceTree = "<group>"; };
 		3F56A0691F174FA10061C901 /* Day3 BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day3 BinarySearch.swift"; sourceTree = "<group>"; };
@@ -33,9 +35,11 @@
 		3F56A0441F14AA930061C901 = {
 			isa = PBXGroup;
 			children = (
+				3F5566D51F18A54D00BC92B6 /* Day4 BubbleSort.swift */,
 				3F56A0691F174FA10061C901 /* Day3 BinarySearch.swift */,
 				3F56A0671F1556C20061C901 /* Day2 Sieve_of_Eratosthenes.swift */,
 				3F56A0651F1555BB0061C901 /* Day1 FizzBuzz.swift */,
+				3F5566D41F176B6100BC92B6 /* 30 Days Algorithm in Swift.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +60,7 @@
 			);
 			name = "30 Days Algorithm in Swift";
 			productName = "30 Days Algorithm in Swift";
-			productReference = 3F56A04D1F14AA930061C901 /* 30 Days Algorithm in Swift.app */;
+			productReference = 3F5566D41F176B6100BC92B6 /* 30 Days Algorithm in Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,6 +115,7 @@
 			files = (
 				3F56A0681F1556C20061C901 /* Day2 Sieve_of_Eratosthenes.swift in Sources */,
 				3F56A0661F1555BB0061C901 /* Day1 FizzBuzz.swift in Sources */,
+				3F5566D61F18A54D00BC92B6 /* Day4 BubbleSort.swift in Sources */,
 				3F56A06A1F174FA10061C901 /* Day3 BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
